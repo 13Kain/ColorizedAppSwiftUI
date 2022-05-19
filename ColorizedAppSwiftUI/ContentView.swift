@@ -12,10 +12,35 @@ struct ContentView: View {
     @State private var green = Double.random(in: 0...255)
     @State private var blue = Double.random(in: 0...255)
     
-    @FocusState var isInputActiva: Bool
+    @FocusState private var isInputActive: Bool
     
     var body: some View {
-        
+        ZStack{
+            Color.blue.ignoresSafeArea(.all)
+                .onTapGesture {
+                    isInputActive = false
+                }
+            VStack(spacing: 40){
+                ColorView(red: red, green: green, blue: blue)
+                
+                VStack{
+                    ColorSliderView(value: $red, color: .red)
+                    ColorSliderView(value: $blue, color: .blue)
+                    ColorSliderView(value: $green, color: .green)
+                }
+                .frame(height: 150)
+                .focused($isInputActive)
+                .toolbar {
+                    ToolbarItemGroup(placement: .keyboard) {
+                        Spacer()
+                        Button("Done") {
+                            isInputActive = false
+                        }
+                    }
+                }
+                Spacer()
+            }
+            .padding()
         }
     }
 }
