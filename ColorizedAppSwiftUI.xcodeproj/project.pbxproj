@@ -62,8 +62,8 @@
 				0A8A3BCB283636CE008DB124 /* ColorSliderView.swift */,
 				0A8A3BC728362547008DB124 /* TextView.swift */,
 				0A8A3BC9283628A8008DB124 /* TextFieldView.swift */,
-				0AE238252832BD4B0021F31C /* Assets.xcassets */,
 				0A8A3BC528362276008DB124 /* ColorView.swift */,
+				0AE238252832BD4B0021F31C /* Assets.xcassets */,
 			);
 			path = ColorizedAppSwiftUI;
 			sourceTree = "<group>";
