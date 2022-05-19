@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8A3BC628362276008DB124 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A3BC528362276008DB124 /* ColorView.swift */; };
+		0A8A3BC828362547008DB124 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A3BC728362547008DB124 /* TextView.swift */; };
+		0A8A3BCA283628A8008DB124 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A3BC9283628A8008DB124 /* TextFieldView.swift */; };
+		0A8A3BCC283636CE008DB124 /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A3BCB283636CE008DB124 /* ColorSliderView.swift */; };
 		0AE238222832BD470021F31C /* ColorizedAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE238212832BD470021F31C /* ColorizedAppSwiftUIApp.swift */; };
 		0AE238242832BD470021F31C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE238232832BD470021F31C /* ContentView.swift */; };
 		0AE238262832BD4B0021F31C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE238252832BD4B0021F31C /* Assets.xcassets */; };
-		0AE238322832C31B0021F31C /* RGBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE238312832C31B0021F31C /* RGBView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A8A3BC528362276008DB124 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		0A8A3BC728362547008DB124 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		0A8A3BC9283628A8008DB124 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		0A8A3BCB283636CE008DB124 /* ColorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSliderView.swift; sourceTree = "<group>"; };
 		0AE2381E2832BD470021F31C /* ColorizedAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizedAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE238212832BD470021F31C /* ColorizedAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizedAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		0AE238232832BD470021F31C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0AE238252832BD4B0021F31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0AE238312832C31B0021F31C /* RGBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,11 @@
 			children = (
 				0AE238212832BD470021F31C /* ColorizedAppSwiftUIApp.swift */,
 				0AE238232832BD470021F31C /* ContentView.swift */,
-				0AE238312832C31B0021F31C /* RGBView.swift */,
+				0A8A3BCB283636CE008DB124 /* ColorSliderView.swift */,
+				0A8A3BC728362547008DB124 /* TextView.swift */,
+				0A8A3BC9283628A8008DB124 /* TextFieldView.swift */,
 				0AE238252832BD4B0021F31C /* Assets.xcassets */,
+				0A8A3BC528362276008DB124 /* ColorView.swift */,
 			);
 			path = ColorizedAppSwiftUI;
 			sourceTree = "<group>";
@@ -128,9 +137,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AE238322832C31B0021F31C /* RGBView.swift in Sources */,
+				0A8A3BC628362276008DB124 /* ColorView.swift in Sources */,
+				0A8A3BCA283628A8008DB124 /* TextFieldView.swift in Sources */,
+				0A8A3BC828362547008DB124 /* TextView.swift in Sources */,
 				0AE238242832BD470021F31C /* ContentView.swift in Sources */,
 				0AE238222832BD470021F31C /* ColorizedAppSwiftUIApp.swift in Sources */,
+				0A8A3BCC283636CE008DB124 /* ColorSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
